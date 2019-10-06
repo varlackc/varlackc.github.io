@@ -2986,8 +2986,12 @@ table.alt tbody tr td {
     left: 0;
     width: 100%;
     height: 100%;
+    /*-------------Added a filter -----------------*/
+    background: /* FILTER OVER GIF*/
+    linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.45));
+    /*---------------------------------------------*/
     background-color: #212931;
-    background-image: url("../../images/Walpaper Gif.gif"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+    background-image: url("../../images/Walpaper Gif.gif"), linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../images/bg.jpg");
     background-size: auto, auto, 100% auto;
     background-position: center, center, top center;
     background-repeat: repeat, no-repeat, no-repeat;
@@ -3037,7 +3041,8 @@ body.is-preload #wrapper.fade-in:before {
 
 #intro {
     color: #ffffff;
-    background-color: rgba(0, 0, 0, .5) padding: 8rem 4rem 6rem 4rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8rem 4rem 6rem 4rem;
     -moz-align-items: center;
     -webkit-align-items: center;
     -ms-align-items: center;
@@ -3191,6 +3196,9 @@ body.is-preload #wrapper.fade-in:before {
     transform: translateY(0);
     opacity: 1;
     visibility: visible;
+    /* Add background color*/
+    background-color: rgba(0, 0, 0, 0.7);
+    /*---------------------*/
 }
 
 body.is-preload #intro {
@@ -3282,7 +3290,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 #header a {
     color: #ffffff;
-    border-bottom-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.6);
 }
 
 #header a:hover {
@@ -4142,7 +4150,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 
 #copyright a {
     color: #ffffff;
-    border-bottom-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.9);
 }
 
 #copyright a:hover {
@@ -4194,6 +4202,9 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     line-height: 1;
     margin-left: 1rem;
     padding-left: 1rem;
+    /*Add background*/
+    background-color: rgba(0, 0, 0, 0.9)
+    /*-------------*/
 }
 
 #copyright ul li:first-child {
@@ -4354,7 +4365,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     right: 0;
     text-align: right;
     top: 0;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     width: 7rem;
 }
 
